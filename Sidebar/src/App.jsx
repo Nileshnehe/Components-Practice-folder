@@ -1,8 +1,11 @@
 import React from 'react'
+import DashboardLayout from './layouts/DashboardLayout'
 
 const App = () => {
   return (
-    <div className='bg-black'>App</div>
+    <>
+    <DashboardLayout />
+    </>
   )
 }
 
